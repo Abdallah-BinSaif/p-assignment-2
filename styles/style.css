@@ -1,0 +1,12 @@
+@font-face {
+    font-family: miama;
+    src: url("./miama1.ttf");
+}
+@font-face {
+    font-family: inter;
+    src: url("./inter.ttf");
+}
+
+body{
+    font-family: inter;
+}
