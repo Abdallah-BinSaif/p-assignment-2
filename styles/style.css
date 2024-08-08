@@ -6,7 +6,87 @@
     font-family: inter;
     src: url("./inter.ttf");
 }
+:root{
+    --background-color: black;
+    --paragraph-color: white;
+    --heading-color: white;
+    --color-tomato: tomato;
+}
+*{
+    margin: 0;
+    border: 0;
+}
 
 body{
     font-family: inter;
+    background-color: black;
 }
+
+/* shared css styles starts here */
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.btn-primary{
+    background-color: var(--color-tomato);
+    border-radius: 3rem;
+    padding: 5rem;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared css styles ends here */
+
+/* nav bar styles starts here  */
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.nav-bar .logo{
+    color: var(--color-tomato);
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: oblique 13deg;
+}
+.nav-bar ul {
+    color: whitesmoke;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.3rem;
+    border: 1px solid white;
+    border-radius: 3rem;
+    padding:2px;
+}
+.nav-bar ul li {
+    padding: .6rem 2rem;
+}
+.nav-bar i {
+    color: white;
+    display: none;
+ }
+
+/* nav bar styles ends here  */
+
+/* ++++++++++++++++++++++++++++++++++++++++ */
+
+/* banner styles starts here  */
+
+
+
+/* banner styles ends here  */
+
+/* ++++++++++++++++++++++++++++++++++++++++ */
+
+/* nav bar styles ends here  */
+
+
+
+/* banner styles starts here  */
