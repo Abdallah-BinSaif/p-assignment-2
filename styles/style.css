@@ -199,4 +199,26 @@ header{
     font-weight: 300;
     line-height: 1rem;
 }
+/* run extra mile */
+.run-extra-container {
+    background-color: rgba(255, 255, 255, 0.144);
+    border-radius: 1rem;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: calc(50% - 40px) calc(38% - 40px);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 78px;
+}
+.run-extra-image img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+.run-extra-info p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+
 
