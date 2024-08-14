@@ -331,3 +331,40 @@ button.btn-primary.calculator {
 }
 
 
+/* footer section */
+footer{
+    margin-top: 130px;
+    background-color: rgba(255, 255, 255, 0.144);
+
+}
+.footer-container{
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    justify-items: flex-end;
+}
+.footer-container h3{
+    margin: 2rem 0;
+}
+.footer-container p{
+    margin: 1.2rem 0;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+.footer-info h3{
+    font-size: 5.6rem;
+    font-weight: 800;
+}
+
+.get-started h3{
+    font-size: 3rem;
+}
+.get-started p{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+.footer > p{
+    text-align: center;
+    margin: 0 0;
+    padding: 1.2rem;
+}
