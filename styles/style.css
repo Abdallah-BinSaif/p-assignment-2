@@ -67,6 +67,7 @@ header{
     color: tomato;
     font-size: 2.6rem;
     font-weight: 700;
+    font-style:oblique 13deg;
 }
 .nav-bar .links{
     display: flex;
@@ -77,6 +78,9 @@ header{
     border-radius: 2rem;
     height:3rem;
     padding-right: 2rem;
+}
+.links p {
+    color : white;
 }
 .nav-bar i {
     color: white;
@@ -116,7 +120,7 @@ header{
     width: 30%;
     padding: 12px 0;
     border: 1px solid white;
-    background-color: black;
+    background-color: transparent;
 }
 .banner-image {
     position: relative;
@@ -213,6 +217,8 @@ header{
 .run-extra-image img {
     max-width: 100%;
     border-radius: 1rem;
+    object-fit: none;
+    object-position: 66% 30%;
 }
 .run-extra-info p {
     font-size: 1rem;
