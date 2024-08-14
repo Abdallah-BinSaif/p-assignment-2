@@ -164,5 +164,39 @@ header{
     font-size: 1.2rem;
 }
 
+/* habits */
+.habits{
+    margin-top: 6rem;
+}
+.habits-info, .meet-team-info {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.habits-info p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1rem;
+}
 
+.habits-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+}
+.habit-item img{
+    border: 3px solid rgba(245, 245, 245, 0.555);
+    border-radius: 50%;
+}
+.habit-item h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: .5rem;
+}
+.habit-item p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1rem;
+}
 
